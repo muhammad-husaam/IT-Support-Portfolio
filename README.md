@@ -83,6 +83,32 @@ using Nmap from Kali Linux in an isolated lab environment.
 
 ---
 
+## 👥 Bulk User Creation Script
+PowerShell script that reads a CSV file and automatically creates 
+multiple Active Directory users in bulk.
+
+*Script:* bulkusers.ps1  
+*Data:* users.csv
+
+
+
+![Bulk User Creation](bulkusers-creation.png)
+
+
+
+---
+
+## 🌐 DHCP Server Setup
+Configured a DHCP Server on Windows Server 2022 to automatically 
+assign IP addresses to client machines on the lab.local network.
+
+*Scope:* 192.168.164.100 - 192.168.164.200  
+*Document:* dhcp-setup.md
+
+
+
+![DHCP Manager](dhcp-manager.png)
+
 ## 🛠️ Tools Used
 - PowerShell
 - Windows Server 2022
