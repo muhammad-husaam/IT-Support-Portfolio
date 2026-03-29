@@ -55,6 +55,33 @@ Built a fully functional Active Directory environment using VMware Workstation.
 ![IT Department OU](ou.png)
 
 ---
+## 🔒 Security Scan Report
+Performed network reconnaissance on Windows Server 2022 Domain Controller 
+using Nmap from Kali Linux in an isolated lab environment.
+
+- Identified 9 open ports including DNS, Kerberos, LDAP and SMB
+- Confirmed target as Active Directory Domain Controller for lab.local
+- Provided security recommendations based on findings
+
+*Document:* security-scan-report.md
+
+
+
+![Ping Test](ping-test.png)
+
+
+
+
+![Nmap Basic Scan](nmap-basic-scan.png)
+
+
+
+
+![Nmap Version Scan](nmap-version-scan.png)
+
+
+
+---
 
 ## 🛠️ Tools Used
 - PowerShell
@@ -63,6 +90,7 @@ Built a fully functional Active Directory environment using VMware Workstation.
 - Active Directory
 - DNS
 - GitHub
+- Kali Linux
 
 ---
 
