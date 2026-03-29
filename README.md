@@ -1,55 +1,70 @@
 # IT Support Portfolio
 
-A collection of PowerShell automation scripts built to demonstrate
-practical IT Support skills.
+A collection of practical IT Support projects demonstrating real-world skills in PowerShell automation, Windows Server administration, Active Directory, and network troubleshooting.
 
 ---
 
 ## 🖥️ System Health Check
 Displays CPU usage, RAM, and Disk space in a clean report.
 
-*Script:* healthcheck.ps1
+**Script:** `healthcheck.ps1`
 
-
-
-![System Health Check](Screenshot 2026-03-27 232632.jpg)
-
-
+![System Health Check](Screenshot 2026-03-27 232632.png)
 
 ---
 
 ## 🧹 Temp File Cleanup
 Automatically deletes junk temp files from Windows.
 
-*Script:* cleanup.ps1
+**Script:** `cleanup.ps1`
 
-
-
-![Temp Cleanup](Screenshot 2026-03-27 233639.jpg)
-
-
+![Temp Cleanup](Screenshot 2026-03-27 233639.png)
 
 ---
 
 ## ⚠️ Disk Usage Alert
 Checks all drives and warns if free space is below 20GB.
 
-*Script:* diskalert.ps1
+**Script:** `diskalert.ps1`
 
+![Disk Alert](Screenshot 2026-03-27 233700.png)
 
+---
 
-![Disk Alert](Screenshot 2026-03-27 233700.jpg)
+## 🌐 Network Troubleshooting Runbook
+A professional reference guide for diagnosing and resolving common network issues.
 
+**Document:** `network-runbook.md`
 
+---
+
+## 🏠 Windows Server 2022 Home Lab
+Built a fully functional Active Directory environment using VMware Workstation.
+
+- Installed Windows Server 2022
+- Configured Active Directory Domain Services
+- Created domain lab.local
+- Set up DNS Server
+- Created Organizational Units and user accounts
+
+**Document:** `homelab.md`
+
+![Server Manager](server-manager.png)
+![Active Directory](active-directory.png)
+![DNS Manager](dns-manager.png)
+![IT Department OU](ou.png)
 
 ---
 
 ## 🛠️ Tools Used
 - PowerShell
-- Windows 11
+- Windows Server 2022
+- VMware Workstation
+- Active Directory
+- DNS
 - GitHub
 
 ---
 
 ## 👤 About
-IT Support Specialist
+IT Support Specialist | Google IT Support Certificate
